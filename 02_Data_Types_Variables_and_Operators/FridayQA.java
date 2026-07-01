@@ -17,6 +17,7 @@ public class FridayQA {
      *      1. The remaining power after flying?
      *      2. How many flights are possible if each flight requires flightPower?
      */
+
     int batteryPower = 1000;
     int flightPower;
     flightPower = 300;
@@ -32,4 +33,5 @@ public class FridayQA {
     System.out.println("Power Remaining with post increment: " + batteryPower++);
     System.out.println("Power Remaining: " + batteryPower);
     }
+    
 }
