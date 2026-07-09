@@ -5,6 +5,9 @@ public class Loop {
         // * problem 1:
         // * -----------------------------
         // * print the 1st 10 even numbers
+
+        System.out.println("Problem 1 Solve");
+
         for (int i = 1; i <= 10; i++) {
             System.out.println(i * 2);
         }
@@ -25,6 +28,8 @@ public class Loop {
         // * if the number is divisible by 3 and 5, print "FizzBuzz"
         // * else print the number
 
+        System.out.println("Problem 2 Solve");
+
         for (int i=1; i <=20; i++) {
             if (i % 3 == 0) {
                 System.out.print("Fizz");
@@ -35,9 +40,29 @@ public class Loop {
             if (i % 3 != 0 && i % 5 != 0) {
                 System.out.println(i);
             } else {
-                System.out.println(); // \n -> new line
+                System.out.println();
             }
         }
+
+        // * problem 3:
+        // * --------------------------------
+        // * print the following pattern for n=5
+        
+        System.out.println("Problem 3 Solve");
+
+        for (int row=1; row<5; row++) {
+            for (int col=1; col<5; col++) {
+                System.out.print("# ");
+            }
+            System.out.println();
+        }
+
+
+
+
+
+
+
 
 
 
