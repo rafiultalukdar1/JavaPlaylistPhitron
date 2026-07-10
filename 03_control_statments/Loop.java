@@ -96,12 +96,66 @@ public class Loop {
             System.out.println();
         }
 
+        // * problem 6:
+        // * --------------------------------
+        // * print the following pattern for n=5
+        // * 1 2 3 4 5
+        // * 1 2 3 4
+        // * 1 2 3
+        // * 1 2
+        // * 1
 
+        System.out.println("Problem 06 Solve");
 
+        for (int row = 5; row >= 1; row--) {
+            for (int col = 1; col <= row; col++) {
+                System.out.print(col + " ");
+            }
+            System.out.println();
+        }
+        System.out.println();
 
+        // * problem 7:
+        // * --------------------------------
+        // * print the following pattern for n=5
+        // * 1
+        // * 2 3
+        // * 4 5 6
+        // * 7 8 9 10
+        // * 11 12 13 14 15
 
+        System.out.println("Problem 07 Solve");
 
+        int cell_number = 1;
+        for (int r=1; r<=5; r++) {
+            for (int c=1; c<=r; c++) {
+                System.out.print(cell_number++ + " ");
+            }
+            System.out.println();
+        }
 
+        // * problem 8:
+        // * --------------------------------
+        // * print the following pattern for n=5
+        // * x       x
+        // *   x   x  
+        // *     x    
+        // *   x   x  
+        // * x       x
+
+        System.out.println("Problem 08 Solve");
+
+        int n = 9;
+        for (int r=0; r<n; r++) {
+            for (int c=0; c<n; c++) {
+                if (r == c || r+c+1 == n) {
+                    System.out.print("x");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
 
 
 
