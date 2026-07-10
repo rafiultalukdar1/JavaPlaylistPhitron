@@ -75,8 +75,26 @@ public class Loop {
             System.out.println();
         }
 
+        // * problem 5:
+        // * --------------------------------
+        // * print the following pattern for n=5
+        // * a
+        // * a b
+        // * a b c
+        // * a b c d
+        // * a b c d e
 
+        System.out.println("Problem 05 Solve");
 
+        int decimalValue = 97; // ASCII value for 'a'
+        char char_value;
+        for (int r=1; r<=5; r++) {
+            for (int c=1; c<=r; c++) {
+                char_value = (char) (decimalValue + c - 1);
+                System.out.print(char_value + " ");
+            }
+            System.out.println();
+        }
 
 
 
